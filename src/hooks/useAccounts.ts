@@ -5,7 +5,7 @@ import {
   getAccounts,
   updateAccount,
 } from '../db/accounts'
-import { Account } from '../types'
+import { Account } from '../types/types'
 
 export function useAccounts() {
   const [accounts, setAccounts] = useState<Account[]>([])
